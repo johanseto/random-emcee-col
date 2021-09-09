@@ -1,6 +1,6 @@
 {
   "name": "random-emcee-col",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a repo to try saving packages",
   "main": "src/index.js",
   "scripts": {
