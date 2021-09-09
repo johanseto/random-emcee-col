@@ -13,7 +13,15 @@
   "author": "Johan <editingjohan@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-emcee-col": "./bin/global.js"
+    "random-emcee-col": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanv26/random-emcee-col.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johanv26/random-emcee-col/issues"
+  },
+  "homepage": "https://github.com/johanv26/random-emcee-col#readme"
 }
