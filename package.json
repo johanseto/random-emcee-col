@@ -1,0 +1,19 @@
+{
+  "name": "random-emcee-col",
+  "version": "1.0.0",
+  "description": "a repo to try saving packages",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package",
+    "random-messages"
+  ],
+  "author": "Johan <editingjohan@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-emcee-col": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
