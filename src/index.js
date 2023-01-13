@@ -16,12 +16,13 @@ const messages = [
     "Vendetta",
     "Azrael",
     
+    
 ]
 
 //Crear function to get random messages
 const randomMsg = () => {
     const message = messages[Math.floor(Math.random()*messages.length)]
-    console.log(message)
+    console.log(`the winner of the tournament would be ${message}`)
 }
 
 // Exportar como un módulo
