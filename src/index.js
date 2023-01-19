@@ -15,8 +15,6 @@ const messages = [
     "Pandora",
     "Vendetta",
     "Azrael",
-    
-    
 ]
 
 //Crear function to get random messages
