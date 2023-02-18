@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // run code in  bash
 
-//variabe that call the method.
+//variable that call the method.
 let random = require('../src/index.js')
 
 //Run the function.
