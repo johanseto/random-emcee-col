@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 
-require('../src/index_redbull_internacional.js').randomMsg()
+require("../src/cli").runCli("internacional").catch((error) => {
+    console.error(error.message)
+    process.exitCode = 1
+})
