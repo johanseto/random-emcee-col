@@ -1,28 +1,26 @@
-const messages = [
-    "Token",
+const emcees = [
+    "J1",
     "Marithea",
-    "Carpediem",
-    "Eleven",
-    "Deko",
-    "Neg",
-    "Big-killa",
-    "Wendigo",
-    "Loquillo",
-    "Alzate",
-    "Airon",
-    "Bless",
-    "filosofo",
+    "Puppy",
+    "Axl Evans",
+    "Coffy",
+    "Coloso",
+    "Horus",
+    "Jazz MC",
+    "Lit Ignis",
     "Pandora",
-    "Vendetta",
-    "Azrael",
+    "JM Serna",
+    "Urko",
+    "Visionario",
+    "Fat N",
+    "Hunter",
+    "Airon Punchline",
 ]
 
-//Crear function to get random messages
 const randomMsg = () => {
-    const message = messages[Math.floor(Math.random()*messages.length)]
-    console.log(`the winner of the tournament would be ${message}`)
+    const emcee = emcees[Math.floor(Math.random() * emcees.length)]
+    console.log(`El MC elegido para Red Bull Batalla Colombia 2026 es ${emcee}`)
+    return emcee
 }
 
-// Exportar como un módulo
-
-module.exports = {randomMsg}
+module.exports = { randomMsg, emcees }
