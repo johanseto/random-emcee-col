@@ -1,26 +1,14 @@
-const emcees = [
-    "Chuty",
-    "Gazir",
-    "El Menor",
-    "Exe",
-    "Bnet",
-    "Teorema",
-    "Larrix",
-    "Almendrades",
-    "Valles-T",
-    "Fat Tony",
-    "Reverse",
-    "Fat N",
-    "Androide",
-    "Éxodo Lirical",
-    "Rapder",
-    "Nekroos",
-]
+const { getParticipants } = require("./participants")
 
-const randomMsg = () => {
+const randomMsg = (year = 2026) => {
+    const emcees = getParticipants("internacional", year)
     const emcee = emcees[Math.floor(Math.random() * emcees.length)]
-    console.log(`El MC elegido para Red Bull Batalla Internacional 2026 es ${emcee}`)
+    console.log(`El MC elegido para Red Bull Batalla Internacional ${year} es ${emcee}`)
     return emcee
 }
 
-module.exports = { randomMsg, emcees }
+module.exports = {
+    randomMsg,
+    emcees: getParticipants("internacional", 2026),
+    getParticipants: (year) => getParticipants("internacional", year),
+}
