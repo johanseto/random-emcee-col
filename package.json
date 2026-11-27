@@ -1,27 +1,30 @@
 {
   "name": "random-emcee-col",
   "version": "1.0.1",
-  "description": "a repo to try saving packages",
-  "main": "src/index.js",
+  "description": "Generadores aleatorios de MCs de Red Bull Batalla",
+  "main": "src/index_redbull.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "keywords": [
     "package",
-    "random-messages",
+    "freestyle",
+    "red-bull-batalla",
+    "random-emcee"
   ],
   "author": "Johan <editingjohan@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-emcee-col": "bin/global.js"
+    "random-emcee-col": "bin/global.js",
+    "random-emcee-internacional": "bin/international.js"
   },
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johanv26/random-emcee-col.git"
+    "url": "git+https://github.com/johanseto/random-emcee-col.git"
   },
   "bugs": {
-    "url": "https://github.com/johanv26/random-emcee-col/issues"
+    "url": "https://github.com/johanseto/random-emcee-col/issues"
   },
-  "homepage": "https://github.com/johanv26/random-emcee-col#readme"
+  "homepage": "https://github.com/johanseto/random-emcee-col#readme"
 }
